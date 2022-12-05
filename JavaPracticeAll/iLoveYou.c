@@ -9,7 +9,7 @@ int main()
     textbackground(WHITE);
     for(i=1;i<100; i++)
     {
-        cprintf("I LOVE YOU");
+        printf("I LOVE YOU");
         delay(200);
 
     }

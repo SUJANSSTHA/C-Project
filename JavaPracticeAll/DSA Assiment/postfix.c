@@ -30,8 +30,8 @@ int popData(struct stack*st)
 }
 int main()
 {
-    struct stack st;
-    char symb, st;
+    struct stack, &st;
+    char symb, &st;
     char symb, opnd1, opnd2;
     int value;
     char exp(Max);

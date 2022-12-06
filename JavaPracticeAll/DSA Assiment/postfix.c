@@ -14,10 +14,11 @@ int pushData(struct stack*st,int symb)
     {
         printf("Stack is full");
         return 0;
+          }
         st->data[++st->tos]=symb;
 
 
-    }
+  
 
 }
 int popData(struct stack*st)
@@ -31,7 +32,7 @@ int popData(struct stack*st)
 int main()
 {
     struct stack, &st;
-    char symb, &st;
+    // char symb, &st;
     char symb, opnd1, opnd2;
     int value;
     char exp(Max);
@@ -46,7 +47,7 @@ int main()
             pushData(&st,symb-48);
         }
     }
-    else {
+    else if {
         opnd2= popData(&st);
         opnd1 = popData(&st);
         switch(symb)

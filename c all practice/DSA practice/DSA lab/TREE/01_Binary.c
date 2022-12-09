@@ -1,4 +1,7 @@
-// read the first number 
+// read the first number RR
+
+we can visit in three way
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
@@ -58,6 +61,12 @@ void insert(struct tree *ptrthis, int data)
 }
 void inorder(struct tree *ptrthis)
 {
+    if(ptrthis!=NULL)
+    {
+        inorder(ptrthis->left);
+        printf("\n%d\t", ptrthis->info);
+        inorder(ptrthis->right);
+    }
 
 }
 
@@ -68,7 +77,7 @@ int main()
     {
         printf("Enter a number");
         scanf("%d", &n);
-        inset (root,n); // first put data in 'n' and send 
+        insert (root,n); // first put data in 'n' and send 
     }
     printf("Tree constructed . \n the binary search tree is \n");
     inorder(root);

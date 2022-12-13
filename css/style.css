@@ -1,0 +1,86 @@
+/* absolute unit */
+
+
+/* #parent {
+    border: 2px solid red;
+    /* width: 10cm; */
+
+
+/* width: 100mm; */
+
+
+/* width: 2in; */
+
+
+/* width: 100px; */
+
+
+/* width: 100pt; */
+
+
+/* width: 10pc; */
+
+
+/* }  */
+
+
+/* relative  unit  */
+
+
+/* %  */
+
+
+/* 
+#parent {
+    border: 3px solid red;
+    width: 800px;
+}
+
+#child {
+    border: 1px solid green;
+    width: 50%;
+} */
+
+
+/* vh  */
+
+
+/* #parent {
+    border: 3px solid red;
+    width: 800px; 
+    height: 50vh;
+    width: 50vw;
+} 
+*/
+
+
+/* now most important em and rem  */
+
+
+/* 
+#parent {
+    font-size: 20px;
+}
+
+
+/* 0.5 *  30px = 15px 
+
+#child {
+    font-size: 1.10em;
+} */
+
+
+/* now rem
+ */
+
+html {
+    font-size: 10px;
+}
+
+#parent {
+    font-size: 10vw;
+}
+
+#child {
+    font-size: 2rem;
+}

@@ -5,26 +5,38 @@
 
 
 
-public class MyCalculator {
+// public class MyCalculator {
 
-    public static long power(int n, int p) {
+//     public static long power(int n, int p) {
     
-    long result = 1;
+//     long result = 1;
     
-    for (int i = 0; i < p; i++) {
+//     for (int i = 0; i < p; i++) {
     
-    result = result * n;
+//     result = result * n;
     
+//     }
+    
+//     return result;
+    
+//     }
+    
+//     public static void main(String[] args) {
+    
+//     System.out.println(MyCalculator.power(2, 4));
+    
+//     }
+    
+//     }
+
+public class MyCalculator {
+    public long power(int n, int p)
+    {
+        return n*p;
     }
-    
-    return result;
-    
+    static void calcInput()
+    {
+        Scanner sc =  Scanner.(System.in);
+        int n=sc.next
     }
-    
-    public static void main(String[] args) {
-    
-    System.out.println(MyCalculator.power(2, 4));
-    
-    }
-    
-    }
+}

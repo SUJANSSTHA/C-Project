@@ -1,4 +1,4 @@
-package javas;
+// package javas;
 
 public class Student {
     String name;

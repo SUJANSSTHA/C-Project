@@ -9,24 +9,8 @@ class Employees{
     public void setSalary(long salary)
     {
         this.salary = salary;
-    }
-
-
-
-
-
-
-
-    
+    }    
 }
-
-
-
-
-
-
-
-
 
 public class ExampleExcapsulation {
     

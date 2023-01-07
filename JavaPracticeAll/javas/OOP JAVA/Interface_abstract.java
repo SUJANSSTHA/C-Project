@@ -14,7 +14,7 @@ class Customer implements vehical{
     {
         System.out.println("\n\n\nstart(): insert key & pres start button");
     }
-    @Override
+    // @Override
     public void stop()
     {
         System.out.println("\n\nstop(): exit key");

@@ -1,0 +1,41 @@
+What is file Handling ? 
+    File handling defines how we can read and write data on a file. Java IO package contains all the classes through which we can perform all the input and output operations in the file.
+
+File Handling Methods
+1. canRead()
+2. canWrite()
+3. createNewFile()
+4. Delete()
+5. Exists()
+6. Lengths()
+7. getName()
+8. getAbsolutePath()
+9. Mkdir()
+10. List()
+11. Read()
+12. Write()
+13. rename()
+
+import java.io.*;
+import java.io.File;
+
+public class createFile {
+    public static void main(String[] args) {
+        File f = new File("S:\\vs\\All-Practice\\JavaPracticeAll\\fileHandlingtest\\test.txt");
+        try{
+            if(f.createNewFile()){
+                System.out.println("File success Created");
+            }
+            else{
+                System.out.println("file allReady exit");
+            }
+        }catch(Exception e)
+        {
+            System.out.println("Exception handled!");
+        }
+        // }catch(IOException i){
+        //     System.out.println("Exception Handled!");
+        // }
+     
+    }
+}

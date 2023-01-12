@@ -1,0 +1,44 @@
+file Handling
+file handling defines how we can read and write data on a file. Java IO package contains all the calsses through which we can perform all input and output operations in a files.
+
+Stream:-
+Stream is a sequence of data on the basis of java.io package all the classes devided into two types
+1. bytes
+2. char
+
+File Handling methods
+
+boolean types return
+1.canRead()
+2. canWrite()
+
+3. createNewFile()
+4. Delete()
+5. Exists()
+6. length()
+
+7. getName()
+8. getAbsolutePath()
+9. Mkdir()
+10. List()
+11. Read()
+12. write()
+13. renameTo()
+
+File handling classes
+1. file 
+2. fileReader
+3. fileWriter
+4. fileInputSream
+5. fileOUtputSream
+
+buffered means temport memory
+
+6. BufferedInputSteam
+7. BufferedOutputSteam
+
+operations of file
+1. create file 
+2. get file information 
+3. read
+4. write

@@ -1,0 +1,67 @@
+What is Multithreading ? with example
+    Multithreading is a process to execute multiple threads at the same time without dependency of other threads called Multithreading.
+
+What is thread ?
+    Thread is a prr-defined class which is available in java.lang package.
+    Thread is a basic unit of CPU and it is well known for independent execution.
+
+
+How to create Thread in Java ?
+    1). By extending Thread class
+    2). By implementing runnable interface.
+    
+
+Multitasking
+    it has 2 or more different program
+    inside this program it have many subtask
+    it depend upon other task to execute
+
+Multithreading
+     it has single program
+     inside this program it have many subtask
+     we can create different thread for different subtask to execute at the same time without dependency of other thread. 
+
+
+Multithreading
+How many way to create / define a Thread ?
+    1). By extending Thread class
+    2). By implementing runnable interface.
+
+
+NOTE ::
+     thread is superclass in java which is available in java package.
+
+1. by extending thread class:-
+        class A extends Thread{
+            @override
+            public void run(){
+                
+            }
+        }
+        public class B{
+            p.s.v.m(S args[])
+            {
+                A obj = A();
+                obj.start();
+                // code;
+            }
+        }
+
+
+8:12:08 / 8:58:23
+
+2). By implementing runnable interface.
+
+class A implements runnable{
+    public void run()
+    {
+        // code;
+    }
+}
+
+public class B{
+    p.s.v.m(S arg[])
+    {
+        A r = new A():
+    }
+}

@@ -1,0 +1,91 @@
+Package
+Package in Java is a mechanism to encapsulate a group of classes, sub packages and interfaces.
+
+types of packages
+
+pre-defined/In Built Package
+1. java.lang
+2.java.util
+3. java.io
+
+web related package 
+    4. java.applet
+    5. java.awt
+    6. java.net
+
+database related package
+    7. java.SQL
+
+User-defined packages
+1. package add
+2. package mypack
+3. package pi
+
+Access Modifie package 
+upto where it can Access
+
+1. Access modified  2. withInclass  3. withinPackage    4. OutsidePackageBySubClass 5. OutsidePackage
+i. private          yes             No                      No                                  No
+ii. public          yes             yes                     yes                                 yes
+iii. default        yes             yes                     No                                  No
+iv. protacted       yes             yes                     yes                                 No
+
+
+Advantage
+1.Reusability
+2. Security
+3. Fast Searching
+4. naming conflecting
+5. Hinding
+
+
+Disadvantage of Package
+    We can not pass parameter to package.
+
+
+What is user-deined package ?
+The package which are crearted by java programmer or user for their own use are called user-defined package.
+
+Syntax:- package package-name;
+Rules 
+1. Package statement must be first line of the program.
+2. The way of compitation of these classes would be different.
+Ex. javac -d . classname.java
+
+member accessibility
+1. Access modified  2. withInclass  3. withinPackage    4. OutsidePackageBySubClass 5. OutsidePackage
+i. private          yes             No                      No                                  No
+ii. public          yes             yes                     yes                                 yes
+iii. default        yes             yes                     No                                  No
+iv. protacted       yes             yes                     yes                                 No
+
+
+7:37:10 / 8:58:23
+
+to run package open new terminal 
+and write
+javac -d . b.java  
+tere b.java is sava file name
+
+then again 
+java Pradhan.b
+
+above Pradhan.b is pradhan is package name 
+
+example user-defined of package
+
+package Pradhan;
+
+public class b {
+    private void show()
+    {
+        System.out.println("learn coding");
+        System.out.println("Test 2 Package");
+        
+    }
+    public static void main(String[] args) {
+        b r = new b();
+        r.show();
+    }
+}
+

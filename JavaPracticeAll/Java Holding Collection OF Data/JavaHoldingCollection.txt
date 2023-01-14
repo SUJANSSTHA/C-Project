@@ -1,0 +1,16 @@
+What is collections ? 
+    java collections are the set of pre-defined classes and interfaces that helps programmer to perform different kind of data structure operations
+    like :- sorting, seraching, traversing, storing, and processing data efficently
+
+                            Iterable    
+
+                            collection
+    
+    1. List                 2. Queue                    3. Set
+        i. ArrayList            i. Deque                    i. ShortedSet
+        ii. LinkedList          ii. ArrayDeque                      TreeSet
+        iii. vector                 
+            a. stack                FIFO
+        LIFO                        
+
+        8:37:43 / 8:58:23

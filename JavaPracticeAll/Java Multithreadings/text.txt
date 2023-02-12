@@ -1,0 +1,37 @@
+Multithreading
+what is mutihreading ?
+    Multihreading is a process to execute multiple theread at a same time without dependency of other threads called multithreading.
+
+what is thread ?
+    Thread is a pre-define class which is available in java.lang package.
+    thread is a basic unit of CPU it is well known for independent execution.
+
+How to create a thread ?
+
+There are two way to create a thread
+
+by extending the thread class 
+by implementing the runnable interface
+
+example
+class A extend Thread{
+    public void run{
+
+    }
+}
+public static void main(String args[])
+{
+    A thr = new thread();
+    thr.start();
+}
+
+now by implementing Runnable interface
+
+
+What is thread scheduler ?
+    Thread Scheduler is the part of processor which execute multiple threads on a single processor ramdomly.
+
+    Thread Schedular work in 3 algorithm
+    1. fcf(first come first service)
+    2. sjf(sort job first)
+    3. Round Robin

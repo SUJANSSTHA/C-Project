@@ -35,3 +35,26 @@ What is thread scheduler ?
     1. fcf(first come first service)
     2. sjf(sort job first)
     3. Round Robin
+
+    What is Synchronization ? 
+     Synchronization is a technique through which can control multiple thread or number of threads and only one thread will be enter inside the synchronized area.
+
+    note:- The main purpose of synchronization is to overcome the problem of multithreading when multiple threads are trying to access same resource at the same time on that situation it may problems some wrong result.
+
+
+Problems with multithreading:-
+    Multihreading is very good whenever we want to complete our task as soon as possible but in some situation it may provides some wrong result or some corrupted data this situation occur when ever an same resource is accessible by multiple thread at the same time
+
+Synchronization is broadly classified into two categories:-
+1. method level synchronization
+    In method level synchornization the entire method get synchronized so, only one thread will enter inside the synchronized area and remaining all the threads will wait at method level.
+
+Note :- Every object have a lock in java and this lock can be given to only one thread at vb all the time.
+
+
+2. block level synchronization
+    In Block level synchronization the entire method is not get synchronized only the part of the method get synchronized, we have to enclosed those few lines of the code put insede synchronized block. 
+
+    Multihreading probleml
+
+ 

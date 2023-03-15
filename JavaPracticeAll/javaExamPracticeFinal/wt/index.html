@@ -1,0 +1,192 @@
+<!-- Basic form with css -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: rgb(55, 8, 8);
+            text-align: center;
+        }
+        
+        h4 {
+            font-size: 1.1rem;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            background-color: black;
+        }
+        
+        .group {
+            margin: 0.5rem;
+        }
+        
+        th {
+            padding: 1rem;
+        }
+        
+        td {
+            text-align: center;
+            /* margin: 2rem; */
+            padding: 2rem 0rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>HTML:FORM</h1>
+        <h4>Registration Form</h4>
+        <form action="" method="post" enctype="mul
+        ">
+            <fieldset>
+                <legend>Personal Infromation</legend>
+                <div class="group">
+                    <label for="fname">First Name</label>
+
+                    <input type="text" name="name" id="fname" required="required" placeholder="Enter your first name">
+                    <label for="mname">Middle name</label>
+                    <input type="text" id="mname" placeholder="Enter your middle name">
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" required="required" placeholder="Enter your last name">
+                </div>
+                <div class="group">
+                    <label for="male">Gender</label>
+                    <input type="radio" name="gender" id="male" checked="checked">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Other
+                </div>
+                <div class="group">
+                    <label for="">Address</label>
+                    <input type="text" required="required" placeholder="Enter Your Address">
+                </div>
+                <div class="group">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter your email" required="required">
+
+                </div>
+                <div class="group">
+                    <label for="">Phone Number</label>
+                    <input type="number" name="phone" placeholder="Enter Your phone number" required="required">
+
+                </div>
+                <div class="group">
+                    <label for="">country</label>
+                    <select name="country" id="">
+                        <option value="#" selected="selected">Select Country</option>
+                        <option value="">Nepal</option>
+                        <option value="">India</option>
+                        <option value="">America</option>
+                        <option value="">Pakistan</option>
+
+                    </select>
+                </div>
+                <div class="group">
+                    <label for="">Programmming</label> <input type="checkbox" value="java" name="java">Java
+                    <input type="checkbox">PHP
+                    <input type="checkbox">Python
+                    <input type="checkbox">.net
+
+                </div>
+                <div class="group">
+                    <label for="">Bio</label>
+                    <textarea name="" id="" cols="50" rows="6" placeholder="Write something about you"></textarea>
+                </div>
+                <div class="group">
+                    <label for="">Image
+
+                    </label><input type="file">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>User Login Information</legend>
+                <label for="">UserName</label>
+                <input type="text" placeholder="Enter your user name" required="required">
+                <label for="">Password</label>
+                <input type="password" placeholder="***********" required="required">
+            </fieldset>
+            <button>Submit</button>
+            <input type="button" value="Cancel" name="cancel">
+        </form>
+    </div>
+    <div class="table">
+
+        <h1>BCA 3 <sup>rd</sup> Semester Routine</h1>
+        <table border="1">
+            <tr>
+                <th>Day/Time</th>
+                <th>7am-8am</th>
+                <th>8am-9am</th>
+                <th>9am-9:30am</th>
+                <th>9:30am-10:30am</th>
+                <th>10:30am-11:30am</th>
+                <th>11:30am-12:30am</th>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Web Tech</td>
+                <td>SAD</td>
+                <td rowspan="6">Break</td>
+                <td>DSA</td>
+                <td>Stactics</td>
+                <td>Java</td>
+
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>DSA</td>
+                <td>Statics</td>
+                <td>java</td>
+                <td>Web Tech</td>
+                <td>SAD</td>
+            </tr>
+            <tr>
+                <td>Thusday</td>
+                <td>Web Tech</td>
+                <td>SAD</td>
+                <td>DSA</td>
+                <td>Stastics</td>
+                <td>Java</td>
+
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>DSA</td>
+                <td>Statics</td>
+                <td>Java</td>
+                <td>Web Tech</td>
+                <td>SAD</td>
+            </tr>
+            <tr>
+                <td>Thrusday</td>
+                <td>Web Tech</td>
+                <td>SAD</td>
+                <td>DSA</td>
+                <td>Stastics</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>DSA</td>
+                <td>Stastics</td>
+                <td>Java</td>
+                <td>Web Tech</td>
+                <td>SAD</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td colspan="6">Hoilday</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+
+</html>

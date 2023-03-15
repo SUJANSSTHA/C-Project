@@ -1,0 +1,108 @@
+Map and HashMap
+Map and HashMap store the value in the form of key value pari
+
+HashMap
+HashMap class that implements interface Map
+
+Map Properties
+    1. They contains value base on the key
+    2. They are not ordered
+    3. "key" should ne unique
+    4. "Value" can't be doublicate
+
+key     value
+"red"   "apple"
+yellow"  "banana"
+"white"  "radish"
+"green" "apple"
+
+
+why java is so ppopular ?
+s/w
+web application 
+mobile apps
+
+what is class and object?
+Class is a group of elements having properties and behaviours. it s a blueprint of object. It is virtal part it doesnot exit in real. In class we can make logic.
+
+type of class 
+
+user-define class
+pre-defined class
+
+example of pre-define class
+system class 
+string class
+Scanner class
+
+
+what is Constructor ? 
+Constructor is a Special type of method whose name is same as class name.
+
+
+
+note 
+the main purpose of constructor is initialize the object
+Every java class has a constructor
+A constructor is autometically called at the time of object creation.
+A constructor never contain any return type including void
+
+type   of constructor 
+    Private constructor
+    Defalut constructor
+    prametrized constructor
+    copy constructor
+
+    Defalut constructor
+    A constructor which does not have any parameter is called default constructor.
+
+    syntex 
+    class A{
+        A()
+        {
+
+        }
+    }
+
+    A Parameteized constructor 
+
+    A constructor through which we can pass more the one parameters is called parametrized constructor.
+
+    syntex:-
+    class A{
+        A(int x, String y)
+        {
+
+        }
+    }
+
+what is copy constructor ?
+    When ever we pass obejct reference to the constructorthen it is called copy constructor.
+
+
+what is private constructor ?
+     In Java it is possible to write a constructor as a private but according to the rule we can't access private member outside of class.
+
+syntex 
+class cls{
+    private cls()
+    {
+
+    }
+}
+
+super keyword
+    Super keyword refers to the objct of super class, it is used when we want to call the super clas variable, constructor, method through sub object.
+
+Note:-
+    Super
+        1. Variable 
+        2. method 
+        3. constructor
+
+this keyword
+    this keyword refers to the current object inside a method or constructor.
+
+
+Encapsulation 
+Encapsulation is a mechanism throughwhich we can binding the data members and member methdo in a single unit.
